@@ -52,6 +52,7 @@ def train(request: Request):
     except Exception as e:
         return JSONResponse(content={"Error": str(e)}, status_code=500)
 
+
 @app.post("/predict")
 def predict(request: Request,data:str):
     try:
