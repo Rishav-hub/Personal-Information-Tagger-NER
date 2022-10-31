@@ -56,6 +56,7 @@ def train(request: Request):
 @app.post("/predict")
 def predict(request: Request,data:str):
     try:
+        
         pipeline = PredictPipeline(Configuration())
         response = pipeline.run_pipeline(data)
         return JSONResponse(content=response, status_code=200)
