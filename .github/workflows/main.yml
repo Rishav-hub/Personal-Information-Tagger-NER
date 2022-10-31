@@ -77,9 +77,7 @@ jobs:
         run: docker login -u AWS -p $(aws ecr get-login-password --region ${{ secrets.AWS_REGION }}) ${{ secrets.AWS_ECR_LOGIN_URI }}
 
       - name: Pull App Image
-        run: |
-        echo "${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest"
-        docker pull '${{secrets.AWS_ECR_LOGIN_URI}}'/'${{ secrets.ECR_REPOSITORY_NAME }}':latest
+        run: docker pull '${{secrets.AWS_ECR_LOGIN_URI}}'/'${{ secrets.ECR_REPOSITORY_NAME }}':latest
 
       - name: Run Docker Image to serve users
         run: docker run -d -p 8080:8080 '${{ secrets.AWS_ECR_LOGIN_URI }}'/'${{ secrets.ECR_REPOSITORY_NAME }}':latest
