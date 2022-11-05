@@ -15,7 +15,7 @@ XTREME is a benchmark for the evaluation of the cross-lingual generalization abi
 ## 🧑‍💻 How to setup
 create fresh conda environment 
 ```python
-conda create -p ./env python=3.8 -y
+conda create -p ./env python=3.7 -y
 ```
 activate conda environment
 ```python
@@ -25,10 +25,7 @@ Install requirements
 ```python
 pip install -r requirements.txt
 ```
-To run train pipeline
-```python
-python ner/pipeline/train_pipeline.py
-```
+
 To run inferencing
 ```python
 python app.py
@@ -36,7 +33,7 @@ python app.py
 
 To launch swagger ui
 ```python
-http://localhost:8085/docs
+http://localhost:8080/docs
 ```
 ## 🧑‍💻 Tech Used
 1. Natural Language processing
