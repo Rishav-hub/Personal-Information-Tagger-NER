@@ -11,8 +11,7 @@ XTREME is a benchmark for the evaluation of the cross-lingual generalization abi
 4. Train and Deploy model for use-cases
 
 ## 🚀 API 
-![151b267d-0e13-4ebe-be7f-bfe6150bbd1f](https://user-images.githubusercontent.com/40850370/187381206-ec3aa7fa-02e7-4587-8719-7392c15d46ef.jpg)
-## 🧑‍💻 How to setup
+<img width="790" alt="image" src="https://user-images.githubusercontent.com/57321948/200125543-da8286e2-dda6-4670-bf40-0c1584f97a60.png">## 🧑‍💻 How to setup
 create fresh conda environment 
 ```python
 conda create -p ./env python=3.7 -y
