@@ -1,5 +1,5 @@
 ## 🆕 Personal Infromation Tagger Based on Named entity recognition
-Named entity recognition (NER) helps you easily identify the key elements in a text, like names of people, places, brands, monetary values, and more.Extracting the main entities in a text helps sort unstructured data and detect important information, which is crucial if you have to deal with large datasets.
+Named entity recognition (NER) helps you easily identify the key elements in a text, like names of people, places, brands, monetary values, and more.Extracting the main entities in a text helps sort unstructured data and detect important information, which is crucial if you have to deal with large datasets. This project has been deployed using AWS ECR and AWS EC2 Instance.
 
 ## 💽 Dataset 
 XTREME is a benchmark for the evaluation of the cross-lingual generalization ability of pre-trained multilingual models that covers 40 typologically diverse languages and includes nine tasks.
@@ -43,13 +43,16 @@ http://localhost:8080/docs
 3. Transformer 
 4. FastApi 
 
+## Deployment
+1. AWS ECR
+2. AWS EC2
+
 ## 🏭 Industrial Use-cases 
 1. Search and Recommendation system 
 2. Content Classification 
 3. Customer Support 
 4. Research Paper Screening 
 5. Automatically Summarizing Resumes 
-
 
 ## 👋 Conclusion 
 We have shown how to train our own name entity tagger along with proper inplementaion of train and predict pipeline.
